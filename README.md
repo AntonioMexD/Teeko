@@ -1,8 +1,7 @@
 Assignment 3 - Sistemas Inteligentes 
 
 
-Collaborators:Karen Melanie Sasari Alborta
-		Antonio Medina Padilla
+Collaborators:Karen Melanie Sasari Alborta - Antonio Medina Padilla
     
 Introduction
 The project is to program the game "Teeko" so that the computer plays intelligently
@@ -16,6 +15,7 @@ for more information about the rules: https://bonaludo.com/2016/07/27/teeko-a-ga
 Solution
 Heuristic
 It was proposed to use a heuristic that in addition to calculating the sum by rows also weights the cards that are together by rows, thus leaving the following formula that we proposed:
+
 Eval-Rows=sum(1 in row)* sum( 1s consecutives)- sum(-1 in row)* sum( -1s consecutives)
 
 ![Heuristic1](https://user-images.githubusercontent.com/53119069/196014667-251baec5-4e98-41c1-ab02-db3e5529f7d9.jpg)
